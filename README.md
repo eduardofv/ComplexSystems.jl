@@ -1,50 +1,23 @@
-[![Build Status](https://travis-ci.org/ollin18/ComplexSystems.jl.svg?branch=master)](https://travis-ci.org/ollin18/ComplexSystems.jl)
+# Una implementación del modelo epidemiológico COVID-19 publicado por CDMX
 
-# ComplexSystems.jl
+Este es un fork del modelo implementado por [@ollin18](https://github.com/ollin18/ComplexSystems.jl/blob/master/examples/CDMX_model.ipynb) en Julia. Yo lo he reimplementado en Python para entender cómo funciona el modelo y cómo se desarrolla el código de un modelo de este tipo. También para aprender un poco de Julia.
 
-Some  complex system implementations, mostly for CS302 UVM
+Implementa el [modelo publicado por el gobierno de la Ciudad de México](https://modelo.covid19.cdmx.gob.mx/modelo-epidemico) con los parámetros que han publicado hasta hoy.
 
-This is a compilation for the Modeling Complex Systems course.
-> Lecturer: Laurent Hébert-Dufresne
->
-> Student: Ollin Demian Langle Chimal
+### Archivos
 
-Some results are the follow:
+- Mi [modelo Python](CDMX_py.ipynb) con explicación tal como lo he entendido.
+- [Modelo Julia original](examples/CDMX_model.ipynb) con mis cambios para comprender su funcionamiento
+- [Archivo de los documentos publicados por CDMX](cdmx_archive/) con la definición del modelo y parámetros a la fecha en que se implentó este modelo. Guardo esta copia en PDF por si cambia la publicación.
 
-# L-systems:
+### Muestra de las gráficas generadas:
 
-### Sierpinski Triangle
-![Sierpinksi](http://olangle.w3.uvm.edu/random/sierpinski.gif)
+!(modelo)[img/modelo-1.png]
 
-### Penrose Pentagon
-![Penrose](http://olangle.w3.uvm.edu/random/penrose.gif)
+!(modelo2)[img/modelo-2.png]
 
-### Spikes
-![Spikes](http://olangle.w3.uvm.edu/random/spikes.gif)
+### Modelo
 
-### Own figure
-![Heart](http://olangle.w3.uvm.edu/random/lsystem.gif)
+!(modelo)[img/variables.png]
 
-### Building the *heart*
-![BHeart](http://olangle.w3.uvm.edu/random/fast_build.gif)
-
-# Diffusion Limited Aggregation
-
-### 2D-Walker on a 10x10 box
-![dla](http://olangle.w3.uvm.edu/random/initial.png)
-
-# Dynamical Systems
-
-### Generalized Lotka-Volterra (for 3 species)
-![lv3](http://olangle.w3.uvm.edu/random/all_alpha_1.5-h_0.01.png)
-
-# Cellular Automata
-
-### 3 site Sznajd Model with p=0.5
-![sznajd](http://olangle.w3.uvm.edu/random/3s05.gif)
-
-![sznajd1](http://olangle.w3.uvm.edu/random/sznajd.png)
-
-![sznajd](http://olangle.w3.uvm.edu/random/2sitebotsznajd.png)
-
-![sznajd](http://olangle.w3.uvm.edu/random/3sitebotsznajd.png)
+!(modelo)[img/ecuaciones.png]
