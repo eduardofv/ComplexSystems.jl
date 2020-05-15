@@ -12,12 +12,12 @@ Implementa el [modelo publicado por el gobierno de la Ciudad de México](https:/
 
 ### Muestra de las gráficas generadas:
 
-!(modelo)[img/modelo-1.png]
+![modelo](img/modelo-1.png)
 
-!(modelo2)[img/modelo-2.png]
+![modelo](img/modelo-2.png)
 
 ### Modelo
 
-!(modelo)[img/variables.png]
+![modelo](img/variables.png)
 
-!(modelo)[img/ecuaciones.png]
+![modelo](img/ecuaciones.png)
