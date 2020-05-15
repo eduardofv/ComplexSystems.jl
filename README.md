@@ -6,7 +6,8 @@ Implementa el [modelo publicado por el gobierno de la Ciudad de México](https:/
 
 ### Archivos
 
-- Mi [modelo Python](CDMX_py.ipynb) con explicación tal como lo he entendido.
+- [Modelo simplificado](CDMX_deterministico_intervenciones_py.ipynb) determinístico y con intervenciones 
+- Reimplementación del [modelo en Python](CDMX_py.ipynb) con explicación tal como lo he entendido
 - [Modelo Julia original](examples/CDMX_model.ipynb) con mis cambios para comprender su funcionamiento
 - [Archivo de los documentos publicados por CDMX](cdmx_archive/) con la definición del modelo y parámetros a la fecha en que se implentó este modelo. Guardo esta copia en PDF por si cambia la publicación.
 
